@@ -1,4 +1,4 @@
-# Solutions for  cscareerqustions daily challenge
+# Solutions for  cscareerquestions daily challenge
 
 To run any challenge just cd into any directory and run 
 ```
