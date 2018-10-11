@@ -1,6 +1,6 @@
 
 compile:
-	@clang++ -std=c++14 code/stocks-problem.cpp -o a.out
+	@$(CXX) -std=c++14 code/stocks-problem.cpp -o a.out
 test_code:
 	@./a.out < test/test1.txt
 run:
