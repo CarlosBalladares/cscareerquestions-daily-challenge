@@ -1,9 +1,27 @@
 #include <bits/stdc++.h>
 #define ASSERT(expected, res)  cout << (expected == res? "\033[1;32mpass\033[0m":"\033[1;31mfail\033[0m" ) << endl;
 using namespace std;
+
+
 /*
-  List node struct
+  CSCareerQuestions problem Oct 10 2018
+
+  This question was asked by Snapchat.
+
+  Given the head to a singly linked list, where each node also has 
+  a “random” pointer that points to anywhere in the linked list, 
+  deep clone the list.
+
+  node {
+    int value;
+    ptr next;
+    ptr rand;
+  }
+
 */
+
+
+/* List node struct */
 struct ListNode
 {
   int val;
