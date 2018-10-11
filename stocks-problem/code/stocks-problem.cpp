@@ -25,9 +25,7 @@ int main(){
     for(int i = 1; i < n; i++){
       prev_diff     = max(prev_diff, profits[t-1][i-1]-stocks[i-1]);
       profits[t][i] = max(profits[t][i-1], stocks[i]+prev_diff);
-      cout << profits[t][i] << " | ";
     }
-    cout << endl;
   }
   int res = profits[k][n-1];
   cout << res << endl;
