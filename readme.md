@@ -12,8 +12,11 @@ Set your environment variable `CXX = your_c++_compiler_name`
 
 Examples of compilers are clang++, g++. It depends on your environment
 
+### Step 2 Setup bits/stdc++.h
+Make sure you have this header file in your include path. You can google  
+how to install bits/stdc++.h for your environment. 
 
-### Step 2 run any challenge
+### Step 3 run any challenge
 ```
 $ cd challenge-name
 $ make run
